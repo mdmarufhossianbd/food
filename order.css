@@ -1,6 +1,18 @@
-size{
+.order{
+    margin: auto;
+    width: 600px;
+}
+.size{
+    align-items: center;
     display: block;
+    margin: 10px 0px;
+    font-weight: 600;
+    font-size: 20px;
 }
 .pizza_pic{
-    width: 20px;
+    width: 30px;
+}
+.customer_details{
+    margin: 10px 0px;
+    display: block;
 }

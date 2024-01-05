@@ -20,7 +20,7 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div class="order">
             <img src="images/online order.jpg" alt="online food order">
             <h2>BBQ Chicken Pizza</h2>
             <p>Topped with mozzarella, green chili, onion, smoked chicken & bbq pan sauce
@@ -28,15 +28,24 @@
             <h3>Tk 360</h3>
             <form>
                 <fieldset>
-                    <legend aria-required="">Choose your Pizza Size
+                    <legend>Choose your Pizza Size
                     </legend>
                     <label class="size" for="family"> <input type="radio" name="Family" id="Family"> <img class="pizza_pic" src="images/pizza.jpg" alt="pizza"> Family</label>
                     <label class="size" for="Medium"> <input type="radio" name="Medium" id="Medium"> <img class="pizza_pic" src="images/pizza.jpg" alt="pizza">Medium</label>
                     <label class="size" for="small"> <input type="radio" name="Small" id="Small"> <img class="pizza_pic" src="images/pizza.jpg" alt="pizza">Small</label>
                 </fieldset>
+                <fieldset>
+                    <legend>Choose addons
+                    </legend>
+                    <label class="addons" for="regular"> <input type="radio" name="Regular" id="Regular"> Regular</label>
+                    <label class="addons" for="extra_mayonnaise"> <input type="radio" name="Medium" id="Medium"> Extra Mayonnaise</label>
+                </fieldset>
 
-            <input type="button" value="Pleace Your Order">
-            <input type="reset" value="Reset">
+                <label class="customer_details" for="name">Your Name: <input type="text" name="name" id="name"></label>
+                <label class="customer_details" for="phone_number">Your Phone: <input type="text" name="phone_number" id="phone_number"></label>
+
+              <input type="button" value="Pleace Your Order">
+              <input type="reset" value="Reset">
 
             </form>
         </div>
