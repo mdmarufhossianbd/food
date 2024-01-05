@@ -1,31 +1,4 @@
-*{
-    margin: 0%;
-}
-nav > ul {
-    
-    margin-left: auto;
-    display: flex;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    list-style: none;
-    background-color: #2f3542;
-}
-
-nav ul a{
-    text-decoration: none;
-    padding: 20px;
-    color: #fff;
-}
-
-nav ul a:hover{
-    background-color: #ff4757;
-}
-
-footer{
+.gallery{
     margin: auto;
-}
-
-p{
-    margin: auto;
+    width: 1300px;
 }

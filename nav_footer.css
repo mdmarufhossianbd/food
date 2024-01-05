@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+nav > ul {
+    border-left: -10px;
+    align-items: end;
+    margin: auto;
+    width: 1230px;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    background-color: #2f3542;
+}
+
+nav ul li{
+    margin-left: 30px;
+    width: 1200px;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul a:hover{
+    background-color: #ff4757;
+}
+.copyright{
+    padding: 20px;
+    text-align: center;
+}
+/* footer area */
+p > a{
+    text-decoration: none;
+}
